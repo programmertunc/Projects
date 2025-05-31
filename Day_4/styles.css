@@ -1,0 +1,28 @@
+
+#upper_title,#upper_para{
+    text-align: center;
+    margin-top: 20px;
+}
+#upper_title {
+      font-size: 3em;
+      background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+#upper_para{
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.div_1{
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+li{
+    margin-left: 50px;
+}
+ol{
+    font-weight: bold;
+}

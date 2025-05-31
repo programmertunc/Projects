@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web basics for Django</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+<body>
+    <h1 id = "upper_title">Full Stack Web Developer Roadmap</h1>
+    <p id = upper_para>The content of this page was provided by chatgpt, since i don't know the road yet.</p>
+    <div class="div_1" id = "div_1">1. Foundations(Beginner Level)</div>
+    <ol type="I">
+        <li>HTML - Structure your web pages</li>
+        <ol>
+            <li>Elements, attributes, forms, tables, semantic HTML</li>
+        </ol>
+        <li>CSS - Styling</li>
+        <ol>
+            <li>Selectors, box model, layout (Flexbox, Grid), responsive design (media queries)</li>
+        </ol>
+        <li>Javascript - Interaction</li>
+        <ol>
+            <li>Variables, functions, DOM manipulation, event listeners, ES6 features (let/const, arrow functions, template literals)</li>
+        </ol>
+        <li>Tools and Environment</li>
+        <ol>
+            <li>Text Editor: VS Code (with extensions like Prettier, Python)</li>
+            <li>Version Control: Git & GitHub basics</li>
+            <li>Terminal/Bash: Basic commands, file navigation</li>
+        </ol>
+    
+    </ol>
+
+        
+    
+    
+    <hr>
+    <hr>
+
+        <div class="div_1" id = "div_1"> 2. Frontend Development (Intermediate)</div>
+    <ol type="I">
+        <li> Advanced CSS</li>
+        <ol>
+            <li>Preprocessors: SASS (optional)</li>
+            <li>Utility-first frameworks: Tailwind CSS (optional but powerful)</li>
+            <li>Animations and transitions</li>
+        </ol>
+        <li> JavaScript (Continued)</li>
+        <ol>
+            <li>Fetch API / AJAX</li>
+            <li>Promises, Async/Await</li>
+            <li>Modules & ES6+ features</li>
+            <li>Form validation</li>
+        </ol>
+        <li> Frontend Frameworks (Optional but Recommended)</li>
+            <ol>
+                <li>Basic knowledge of React.js (if needed for dynamic frontends)</li>
+            </ol>
+        </ol>
+    <hr>
+    <hr>
+
+        <div class="div_1" id = "div_1">3. Backend Development with Django</div>
+    <ol type="I">
+        <li>  Core Concepts</li>
+        <ol>
+            <li>Project & App structure</li>
+            <li>Django admin, Models, Migrations</li>
+            <li>Views: Function-based and Class-based</li>
+            <li>URL routing</li>
+            <li>Templates and Template Inheritance</li>
+            <li>Static files and Media handling</li>
+        </ol>
+        <li> User Authentication</li>
+        <ol>
+            <li>Registration, Login, Logout</li>
+            <li>Django's built-in User model</li>
+            <li>Custom User model (if needed)</li>
+        </ol>
+        <li>  Django ORM</li>
+            <ol>
+                <li>QuerySets, filtering, relationships (OneToMany, ManyToMany)</li>
+                <li>Model Managers</li>
+                <li>Advanced queries</li>
+            </ol>
+        <li>   Forms</li>
+            <ol>
+                <li>Django Forms vs. ModelForms</li>
+                <li>Form validation</li>
+                <li>File uploads</li>
+            </ol>
+        </ol>
+    <hr>
+    <hr>
+
+    
+        <div class="div_1" id = "div_1"> 4. Full Stack Integration</div>
+    <ol type="I">
+        <li>  Connecting Frontend and Backend</li>
+        <ol>
+            <li>HTML templates + Django context</li>
+            <li>Django messages framework</li>
+            <li>Using JavaScript fetch() to call Django endpoints (AJAX)</li>
+            <li>CSRF protection</li>
+        </ol>
+        
+    </ol>
+    <hr>
+    <hr>
+
+         <div class="div_1" id = "div_1">  5. Testing and Debugging</div>
+    <ol >
+        
+        <ol>
+            <li>Django Debug Toolbar</li>
+            <li>Writing unit tests with unittest or pytest</li>
+            <li>Frontend testing (optional): Jest, Cypress (for React apps)</li>
+            
+        </ol>
+        
+    </ol>
+    <hr>
+    <hr>
+
+        <div class="div_1" id = "div_1"> 6. APIs and Advanced Backend</div>
+    <ol type="I">
+        <li>  REST APIs</li>
+        <ol>
+            <li>Django REST Framework (DRF)</li>
+                <ol>
+                    <li>Serializers, ViewSets, Routers</li>
+                    <li>Token-based auth (JWT)</li>
+                </ol>
+        </ol>
+        <li>  API Consumption</li>
+    
+            <li>Consuming APIs via JavaScript Fetch/Axios</li>
+            <li>Use Postman to test APIs</li>
+    </ol>
+       
+    <hr>
+    <hr>
+
+        <div class="div_1" id = "div_1"> 7. Deployment & DevOps</div>
+    <ol type="I">
+        <li>   Hosting and Deployment</li>
+        <ol>
+            <li>Backend: Deploy Django to platforms like:</li>
+                <ol>
+                    <li>Render, Railway, DigitalOcean, or Heroku/li>
+                </ol>
+            <li>Frontend (static): Netlify or Vercel (if decoupled)</li>
+            <li>Full Stack: Use Gunicorn + Nginx for production</li>
+            <li>Environment Variables: python-decouple, .env</li>
+            
+        </ol>
+        <li>  API Consumption</li>
+        <ol>
+            <li>Consuming APIs via JavaScript Fetch/Axios</li>
+            <li>Use Postman to test APIs</li>
+        </ol>
+
+        <li>  Optional DevOps</li>
+        
+            <li>Dockerize your Django app</li>
+            <li>CI/CD basics (GitHub Actions)</li>
+        </ol>
+       
+    <hr>
+    <hr>
+
+         <div class="div_1" id = "div_1">8. Databases & Caching</div>
+    <ol type="I">
+        <ol>
+            <li>Relational DBs: PostgreSQL (preferred for Django), MySQL, SQLite (for dev)</li>
+            <li>Caching: Redis (via django-redis)</li>
+            <li>ORM optimization: select_related, prefetch_related</li>
+        </ol>
+        </ol>
+       
+    <hr>
+    <hr>
+
+    
+
+
+</body>
+</html>
