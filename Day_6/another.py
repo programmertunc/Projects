@@ -9,21 +9,32 @@ class Person:
 
     def change_name(self,name):
         self.name = name
+
+"""
 person1 = Person("Andy",29)
 person1.greet()
 person1.walk()
 
 person1.change_name("Mandy")
 person1.greet()
+"""
+
 
 
 class User:
     def __init__(self,username,email,password):
         self.username = username
-        self.email = email
+        self._email = email
         self.password = password
     def greetUser(self,user):
         print(f"Hi {user.username} i am {self.username}")
-user1 = User("Abby","abby@email.com","754afd")
-user2 = User("Jonathan","jonathan@email.com","dfswerg")
-user1.greetUser(user2)
+
+    def get_email(self):
+        return self._email
+    def set_email(self,email):
+        self._email = email
+
+
+user3 = User("Abigail","","123-123")
+user3.set_email("abigail@email.com")
+print(user3.get_email())
